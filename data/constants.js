@@ -1,5 +1,4 @@
 require('dotenv').config();
-
 module.exports = {
     userStandard: process.env.USERVALID,
     passGeneral: process.env.PASSVALID,
@@ -10,5 +9,4 @@ module.exports = {
     NewUserName: process.env.NAMEUPDATE,
     NewUserLastName: process.env.LASTNAMEUPDATE,
     NewUserZipCode: process.env.ZIPCODEUPDATE
-
 };
