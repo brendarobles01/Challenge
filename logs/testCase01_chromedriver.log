@@ -1,0 +1,6 @@
+Starting ChromeDriver 120.0.6099.71 (9729082fe6174c0a371fc66501f5efc5d69d3d2b-refs/branch-heads/6099_56@{#13}) on port 9515
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1702353577.463][SEVERE]: bind() failed: Address already in use (48)
+[1702353577.463][INFO]: listen on IPv4 failed with error ERR_ADDRESS_IN_USE
+IPv4 port not available. Exiting...

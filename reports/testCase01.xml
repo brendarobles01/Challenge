@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="testCase01"
+    errors="1" failures="0" hostname="" id="" package="testCase01" skipped="1"
+    tests="0" time="0.001000" timestamp="">
+  
+
+  
+    <system-err>
+       An error occurred while creating a new ChromeDriver session: [Error] Server terminated early with status 1
+  Verify if ChromeDriver is configured correctly; using:
+  {
+     start_process: true,
+     server_path: &#39;/Users/brenda/proyect/node_modules/chromedriver/lib/chromedriver/chromedriver&#39;,
+     port: 9515,
+     host: &#39;localhost&#39;,
+     ssl: false,
+     default_path_prefix: &#39;&#39;,
+     proxy: undefined,
+     cli_args: {}
+  }
+
+ 
+  More info might be available in the log file: /Users/brenda/proyect/logs/testCase01_chromedriver.log
+    </system-err>
+  
+
+    
+    <error message="An error occurred while creating a new ChromeDriver session: [Error] Server terminated early with status 1"><![CDATA[
+      Error: An error occurred while creating a new ChromeDriver session: [Error] Server terminated early with status 1
+    at /Users/brenda/proyect/node_modules/selenium-webdriver/remote/index.js:259:24
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Search Play Station" classname="testCase01">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
